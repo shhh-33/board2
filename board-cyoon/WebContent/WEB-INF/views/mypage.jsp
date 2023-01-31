@@ -9,7 +9,7 @@
         <div class="col-md-7">
           <h1 class="heading gsap-reveal-hero mb-3"><strong>마이페이지</strong></h1>
           <h2 class="subheading gsap-reveal-hero mb-4">
-            A minimal, clean, and AJAX driven free portfolio template created by the fine folks at <strong>Untree.co</strong>. Read our <a href="https://untree.co/license" target="_blank">template license</a> here.
+            Adfd minimal, clean, and AJAX driven free portfolio template created by the fine folks at <strong>Untree.co</strong>. Read our <a href="https://untree.co/license" target="_blank">template license</a> here.
           </h2>
           <p class="gsap-reveal-hero"><a href="https://untree.co/" target="_blank" class="btn btn-outline-black">More free templates here</a></p>    
         </div>
