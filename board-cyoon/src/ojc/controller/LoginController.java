@@ -8,7 +8,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import ojc.dto.Login;
+import ojc.dto.LoginDto;
 import ojc.model.User;
 import ojc.service.LoginService;
 
@@ -35,7 +35,7 @@ public class LoginController {
 	 * @return
 	 */
 	@PostMapping("/login")
-	public String postLogin(Login login, Model model, HttpSession session) {
+	public String postLogin(LoginDto login, Model model, HttpSession session) {
 		loginService.authenticate(login);
 		if (login.getError() != null) {
 			model.addAttribute("error", login.getError());

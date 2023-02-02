@@ -7,11 +7,11 @@
 - resultType은 select 쿼리의 결과를 특정 클래스의 객체 또는 다른 자료형 타입과 일치해야한다.
  -->
 
-<mapper namespace="ojc.repository.BoardMapper">
-	
-	<insert id="enroll">
-        insert into board(title, content, id) values (#{title}, #{content}, #{id})
-    </insert>
+<mapper namespace="ojc.repository.MypageMapper">
+	<!-- 
+UPDATE XUSER SET password ="1" WHERE EMAIL="aaa1@gmail.com";
+	 -->
+
 </mapper>
 
 

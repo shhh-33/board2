@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/")
-public class mypageController {
+public class MypageController {
 	
 	@GetMapping("/mypage")	
 	public String getMypageView(HttpServletRequest request) { 

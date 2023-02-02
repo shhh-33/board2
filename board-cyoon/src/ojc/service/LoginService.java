@@ -3,7 +3,7 @@ package ojc.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import ojc.dto.Login;
+import ojc.dto.LoginDto;
 import ojc.model.User;
 import ojc.repository.UserMapper;
 
@@ -18,7 +18,7 @@ public class LoginService {
 	@Autowired
 	private UserMapper userMapper;
 
-	public void authenticate(Login login) {
+	public void authenticate(LoginDto login) {
 		User user = userMapper.selectByEmail(login.getEmail());
 		if (user == null) {
 			login.setError("Email does not exist.");

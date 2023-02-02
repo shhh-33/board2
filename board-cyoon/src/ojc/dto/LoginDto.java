@@ -19,7 +19,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Login {
+public class LoginDto {
 	private String email;
 	private String password;
 	private String error;  //오류 메시지 셋팅위한 것 추가됨
