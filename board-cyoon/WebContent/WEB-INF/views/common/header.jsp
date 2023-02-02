@@ -49,7 +49,7 @@
   <nav class="site-nav dark mb-5 site-navbar-target">
     <div class="container">
       <div class="site-navigation">
-        <a href="index.html" class="logo m-0"><span class="text-primary">로고!</span></a>
+        <a href="index.html" class="logo m-0"><span class="text-primary">로ㄹㄹ고!</span></a>
 
         <ul class="js-clone-nav d-none d-lg-inline-none site-menu float-right site-nav-wrap">
           <li><a href="#home-section" class="nav-link active">Home</a></li>

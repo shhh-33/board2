@@ -1,3 +1,11 @@
+<!doctype html>
+<html lang="en">
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<head>
+  <meta charset="utf-8">
+
+
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="100">
 	<header>
 		<jsp:include page="/WEB-INF/views/common/header.jsp" />
@@ -8,7 +16,7 @@
     <div class="container">
       <div class="row justify-content-center text-center">
         <div class="col-md-7">
-          <h1 class="heading gsap-reveal-hero mb-3"><strong>아악<span class="text-primary">아악2</span> Portfolio</strong></h1>
+          <h1 class="heading gsap-reveal-hero mb-3"><strong>가나다라<span class="text-primary">아악2</span> Portfolio</strong></h1>
           <h2 class="subheading gsap-reveal-hero mb-4">
             가나다라 <strong>Untree.co</strong>. Read our <a href="https://untree.co/license" target="_blank">template license</a> here.
           </h2>

@@ -1,3 +1,12 @@
+<!doctype html>
+<html lang="en">
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<head>
+  <meta charset="utf-8">
+
+
+
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="100">
   <header>
 		<jsp:include page="/WEB-INF/views/common/header.jsp" />
@@ -9,7 +18,7 @@
         <div class="col-md-7">
           <h1 class="heading gsap-reveal-hero mb-3"><strong>마이페이지</strong></h1>
           <h2 class="subheading gsap-reveal-hero mb-4">
-            Adfd minimal, clean, and AJAX driven free portfolio template created by the fine folks at <strong>Untree.co</strong>. Read our <a href="https://untree.co/license" target="_blank">template license</a> here.
+            가 <strong>Untree.co</strong>. Read our <a href="https://untree.co/license" target="_blank">template license</a> here.
           </h2>
           <p class="gsap-reveal-hero"><a href="https://untree.co/" target="_blank" class="btn btn-outline-black">More free templates here</a></p>    
         </div>
@@ -25,7 +34,7 @@
           <div class="row">
             <div class="col-lg-6">
               <div class="custom-block" data-aos="fade-up">
-                <h2 class="section-title text-black">Accordion</h2>
+                <h2 class="section-title text-black">아코디언</h2>
                 <div class="custom-accordion" id="accordion_1">
                   <div class="accordion-item">
                     <h2 class="mb-0">
@@ -34,7 +43,7 @@
 
                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion_1">
                       <div class="accordion-body">
-                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                        어쩌고 far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
                       </div>
                     </div>
                   </div> <!-- .accordion-item -->
@@ -45,7 +54,7 @@
                     </h2>
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion_1">
                       <div class="accordion-body">
-                        A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                        아유 and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
                       </div>
                     </div>
                   </div> <!-- .accordion-item -->
@@ -56,7 +65,7 @@
 
                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion_1">
                       <div class="accordion-body">
-                        When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.
+                        가나다ills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.
                       </div>
                     </div>
 
@@ -65,7 +74,7 @@
                 </div>
               </div> <!-- END .custom-block -->
               <div class="custom-block" data-aos="fade-up">
-                <h2 class="section-title text-black">Gallery</h2>
+                <h2 class="section-title text-black">갤러리</h2>
                 <div class="row gutter-v2 gallery">
                   <div class="col-4">
                     <a href="images/gal_1.jpg" class="gal-item" data-fancybox="gal"><img src="images/gal_1.jpg" alt="Image" class="img-fluid"></a>
@@ -89,7 +98,7 @@
               </div> <!-- END .custom-block -->
 
               <div class="custom-block" data-aos="fade-up">
-                <h2 class="section-title text-black">Video</h2>
+                <h2 class="section-title text-black">비디오</h2>
 
                 <a href="https://vimeo.com/342333493" data-fancybox class="video-wrap">
                   <span class="play-wrap"><span class="icon-play"></span></span>
@@ -98,7 +107,7 @@
               </div> <!-- END .custom-block -->
 
               <div class="custom-block" data-aos="fade-up">
-                <h2 class="section-title text-black mb-3">Check Unordered List</h2>
+                <h2 class="section-title text-black mb-3">Check 체크리스트 List</h2>
 
                 <ul class="list-unstyled ul-check primary">
                   <li>Far far away, behind the word</li>
@@ -111,18 +120,18 @@
             </div> <!-- /.col-lg-6 -->
             <div class="col-lg-6">
               <div class="custom-block" data-aos="fade-up" data-aos-delay="100">
-                <h2 class="section-title text-black">Form</h2>
+                <h2 class="section-title text-black">폼</h2>
                 <form class="contact-form">
                   <div class="row">
                     <div class="col-md-6">
                       <div class="form-group">
-                        <label class="" for="fname">First name</label>
+                        <label class="" for="fname">네임</label>
                         <input type="text" class="form-control" id="fname">
                       </div>
                     </div>
                     <div class="col-md-6">
                       <div class="form-group">
-                        <label class="" for="lname">Last name</label>
+                        <label class="" for="lname">졸림name</label>
                         <input type="text" class="form-control" id="lname">
                       </div>
                     </div>
@@ -130,7 +139,7 @@
                   <div class="form-group">
                     <label class="" for="email">Email address</label>
                     <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    <small id="emailHelp" class="form-text text-muted">어쩌고l with anyone else.</small>
                   </div>
                   <div class="form-group">
                     <label class="" for="password">Password</label>

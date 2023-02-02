@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class mypageController {
 	
 	@GetMapping("/mypage")	
-	public String getMypageView(HttpServletRequest request) { //http프로토콜의 request정보를 서블릿에게 전달
+	public String getMypageView(HttpServletRequest request) { 
 		return "mypage";
 	}
 	
